@@ -6,7 +6,7 @@ play.addEventListener("click", function() {
     // Random number for dice roll
     let randomPlayer = Math.floor(Math.random() * 6 + 1);
     let randomPc = Math.floor(Math.random() * 6 + 1);
-    // h4 recovery
+    // h4 and p recovery
     let score = document.getElementById("score")
     let victory = document.getElementById("victory")
     // if the winner is player 1...
@@ -29,7 +29,5 @@ play.addEventListener("click", function() {
         score.innerHTML = `Il PC vince con un ${randomPc}, battendo il numero ${randomPlayer} del Player 1`
         victory.innerText = `Player 1: ${randomPlayer} PC: ${randomPc}`
     
-    }
-    score.append(h4);
-    
+    }    
 })
