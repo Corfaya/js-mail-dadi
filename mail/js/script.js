@@ -13,9 +13,12 @@ for (let i = 0; i < emailList.length; i++) {
     }
 }
 
-// Check authorization and message alert
+// Check authorization and message
 if (authorization === true) {
-    alert("Accesso autorizzato")
+    document.getElementById("access").innerText = "Accesso autorizzato"
+    document.getElementById("access").style.color = "green";
+
 } else {
-    alert("Accesso negato")
+    document.getElementById("access").innerText = "Accesso negato"
+    document.getElementById("access").style.color = "red";
 }
