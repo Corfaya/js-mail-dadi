@@ -13,6 +13,7 @@ for (let i = 0; i < emailList.length; i++) {
     }
 }
 
+// Check authorization and message alert
 if (authorization === true) {
     alert("Accesso autorizzato")
 } else {
