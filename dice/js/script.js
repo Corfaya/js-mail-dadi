@@ -16,21 +16,21 @@ play.addEventListener("click", function() {
     if (randomPlayer > randomPc) {
         winner.innerHTML = "Player 1 vince"
         victory.innerHTML = `Player 1 vince con un ${randomPlayer}, battendo il numero ${randomPc} del PC`
-        h4.innerText = `Player 1: ${randomPlayer}. PC: ${randomPc}`
+        h4.innerText = `Player 1: ${randomPlayer} - PC: ${randomPc}`
     score.append(h4);
     }
     // else if there's a draw...
     else if (randomPlayer === randomPc) {
         winner.innerHTML = "Pareggio"
         victory.innerHTML = `Pareggio: entrambi hanno totalizzato ${randomPlayer}`
-        h4.innerText = `Player 1: ${randomPlayer}. PC: ${randomPc}`
+        h4.innerText = `Player 1: ${randomPlayer} - PC: ${randomPc}`
     score.append(h4);
     }
     // else if the winner is the pc...
     else {
         winner.innerHTML = "Pc vince"
         victory.innerHTML = `Il PC vince con un ${randomPc}, battendo il numero ${randomPlayer} del Player 1`
-        h4.innerText = `Player 1: ${randomPlayer}. PC: ${randomPc}`
+        h4.innerText = `Player 1: ${randomPlayer} - PC: ${randomPc}`
     score.append(h4);
     }
     
