@@ -20,13 +20,13 @@ Aggiungo un evento click al bottone, con le seguenti istruzioni
 Recupero un bottone salvandolo in una variabile
 Aggiungo un evento click al bottone, con le seguenti istruzioni
     Creo due variabili per generare due diversi valori randomici attraverso la libreria Math, uno per l'utente, l'altro per il pc
-    Dichiaro una variabile per la modifica dell'h1 -----
+    Recupero l'h2#winner e il p#victory-info
     SE il valore del tiro del giocatore è maggiore del valore del tiro del pc
-        inserisco in h1 con innerHTML: `Player 1 vince con un ${randomPlayer}, battendo il numero ${randomPc} del PC` -----
-        Aggiungo con il metodo append() gli h2 ai div -----
+        inserisco in h2 con innerHTML: "Player 1 vince"
+        inserisco in p con innterHTML: `Player 1 vince con un ${randomPlayer}, battendo il numero ${randomPc} del PC`
     SE INVECE il valore del tiro del giocatore è uguale al valore del tiro del pc
-        inserisco in h1 con innerHTML: `Pareggio: entrambi hanno totalizzato ${randomPlayer}` -----
-        Aggiungo con il metodo append() gli h2 ai div -----
+        inserisco in h2 con innerHTML: "Pareggio"
+        inserisco in p con innterHTML: `Pareggio: entrambi hanno totalizzato ${randomPlayer}`
     ALTRIMENTI
-        inserisco in h1 con innerHTML: `Il PC vince con un ${randomPc}, battendo il numero ${randomPlayer} del Player 1` -----
-        Aggiungo con il metodo append() gli h2 ai div -----
+        inserisco in h2 con innerHTML: "Pc vince"
+        inserisco in p con innterHTML: `Il PC vince con un ${randomPc}, battendo il numero ${randomPlayer} del Player 1`
