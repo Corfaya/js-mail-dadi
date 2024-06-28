@@ -16,26 +16,24 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="my-3 text-center fw-bolder">Gioco dei dadi</h1>
-                <h2 id="winner" class="my-3 text-center fw-bolder text-danger"></h2>
-                <p id="victory-info" class="my-3 text-center fs-3"></p>
-            </div>
-            <div class="col-12">
-                <div class="d-flex flex-column align-items-center">
-                    <div>
-                        <h2>Player 1</h2>
-                    </div>
-                    <div id="pc">
-                        <h2>PC</h2>
+    <div class="d-flex flex-column align-items-center justify-content-center h-100">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="my-3 text-center fw-bolder">Gioco dei dadi</h1>
+                    <h2 id="winner" class="my-3 text-center fw-bolder text-danger"></h2>
+                    <p id="victory-info" class="my-3 text-center fs-3"></p>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-column align-items-center">
+                            <div id="score" class="text-center">
+                            </div>
                     </div>
                 </div>
             </div>
         </div>
+        <button class="my-3 btn border border-danger text-danger fs-3" id="play-game">Play</button>
     </div>
-    <button id="play-game">Play</button>
     <script type="text/javascript" src="./js/script.js"></script>
 </body>
 

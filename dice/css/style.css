@@ -6,4 +6,10 @@
 
 body {
     font-family: "Amaranth", sans-serif;
+    background-color: palegoldenrod;
+    height: 100vh;
+}
+
+.h-100 {
+    height: 100%;
 }
