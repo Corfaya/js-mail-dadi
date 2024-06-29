@@ -43,7 +43,6 @@ send.addEventListener("click", function () {
 // Enter key event
 let input = document.getElementById("mail");
 input.addEventListener("keydown", function (enter) {
-  document.getElementById("access").innerText = "";
   if (enter.key === "Enter") {
     // same code used for click event
     let user_mail = document.getElementById("mail").value.toLowerCase();
@@ -60,5 +59,7 @@ input.addEventListener("keydown", function (enter) {
       document.getElementById("access").innerText = "Accesso negato";
       document.getElementById("access").style.color = "red";
     }
+  } else {
+     document.getElementById("access").innerText = "";
   }
 });
