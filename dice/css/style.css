@@ -9,3 +9,8 @@ body {
     background-color: palegoldenrod;
     height: 100vh;
 }
+
+img {
+    width: 100px;
+    filter: brightness(0) saturate(100%) invert(29%) sepia(30%) saturate(5187%) hue-rotate(335deg) brightness(90%) contrast(90%);
+}
