@@ -9,8 +9,26 @@
     <title>Mail required</title>
 </head>
 <body>
-    <div class="d-flex justify-content-center align-items-center h-100">
-        <h1 class="text-center fw-bolder my-4" id="access"></h1>
+    <div class="container h-100 d-flex flex-column justify-content-center align-items-center">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center text-white fw-bolder my-4">Benvenuto</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <label for="mail" class="mb-3 fw-bolder">Accesso area personale</label>
+                    <input type="email" name="mail" id="mail" placeholder="Inserire l'e-mail" class="mb-3 px-2 py-1 border rounded">
+                    <button class="text-uppercase rounded" id="send">Send</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-center fw-bolder position-absolute bottom-0 start-50" id="access"></h3>
+            </div>
+        </div>
     </div>
     <script type="text/javascript" src="./js/script.js"></script>
 </body>
